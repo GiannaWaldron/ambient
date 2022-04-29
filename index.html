@@ -3,30 +3,30 @@
    <head>
       <title>ambient</title>
       <link rel="stylesheet" href="style.css">
-      <script type = "text/javascript">
-
-    function changeImage()
-    {
-    var img = document.getElementById.src = "img";
-    img.src = images[x];
-    x++;
-
-    if(x >= images.length){
-        x = 0;
-    } 
-   var timerid = setInterval(changeImage(), 1000)
-}  
-
-var images = [], x = 0;
-images[0] = "image1.jpg";
-images[1] = "image2.jpg";
-images[2] = "image3.jpg";
-
-      </script>
+   <script type="text/javascript">
+         var index = 0;
+         function change() {
+             var x = document.getElementsByClassName('slides');
+             for(var i = 0; i < x.length; i++) { 
+                 x[i].style.display = "none"; 
+             }
+             index++;
+             if(index > x.length) { 
+                 index = 5; 
+             }
+             x[index - 5].style.display = "block";
+             setTimeout(change, 3000);
+         }
+   </script>
+<section>
+   <img class="slides" src="img/startimage.jpg" style="width:100vh">
+   <img class="slides" src="img/image1.jpg" style="width:100vh">
+   <img class="slides" src="img/image2.jpg" style="width:100vh">
+   <img class="slides" src="img/image3.jpg" style="width:100vh">
+</section>
 <img src="frame.png" width="800px">
    </head>
-   <body onload = "changeImage()">
- <img id="img" src="img/startimage.jpg">
- <body style="background-color:black;">
-   </body>
+<body>
+<body style="background-color:black;">
+</body>
 </html>

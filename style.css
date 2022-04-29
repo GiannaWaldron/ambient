@@ -2,7 +2,13 @@ img{
     width: 100%;
     height: 100vh;
     z-index: 2;
+    position: fixed;
 }
 script{
     z-index: 1;
+    display: flex;
 }
+.slides { width: 100vh; 
+        margin-left: 350px;
+}
+ 
