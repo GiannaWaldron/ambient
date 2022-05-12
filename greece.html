@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>color field</title>
+      <link rel="stylesheet" href="style.css">
+   <script type="text/javascript">
+      window.onload=function(){
+         change()
+      }
+         var index = 0;
+         var imagenumber= 0
+         function change() {
+             var x = document.getElementsByClassName('slides');
+             for(var i = 0; i < x.length; i++) { 
+                 x[i].style.display = "none"; 
+                 console.log("test")
+             }
+             console.log(imagenumber)
+             
+             x[imagenumber].style.display="block"
+             imagenumber= imagenumber +1
+             if(imagenumber > 7){
+                imagenumber=0
+             }
+             setTimeout(change, 3000);
+         }
+   </script>
+<section>
+   <img class="slides" src="greece/startimage.jpg" style="width:100vh">
+   <img class="slides" src="greece/image1.jpg" style="width:100vh">
+   <img class="slides" src="greece/image2.jpg" style="width:100vh">
+   <img class="slides" src="greece/image3.jpg" style="width:100vh">
+   <img class="slides" src="greece/image4.jpg" style="width:100vh">
+   <img class="slides" src="greece/image5.jpg" style="width:100vh">
+   <img class="slides" src="greece/image6.jpg" style="width:100vh">
+   <img class="slides" src="greece/image7.jpg" style="width:100vh">
+</section>
+<img src="frame5.png">
+   </head>
+<body>
+<body style="background-color:black;">
+</body>
+</html>

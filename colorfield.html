@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>color field</title>
+      <link rel="stylesheet" href="style.css">
+   <script type="text/javascript">
+      window.onload=function(){
+         change()
+      }
+         var index = 0;
+         var imagenumber= 0
+         function change() {
+             var x = document.getElementsByClassName('slides');
+             for(var i = 0; i < x.length; i++) { 
+                 x[i].style.display = "none"; 
+                 console.log("test")
+             }
+             console.log(imagenumber)
+             
+             x[imagenumber].style.display="block"
+             imagenumber= imagenumber +1
+             if(imagenumber > 7){
+                imagenumber=0
+             }
+             /*index++;
+             if(index > x.length) { 
+                 index = 5; 
+             }
+             x[index - 5].style.display = "block";*/
+             setTimeout(change, 3000);
+         }
+   </script>
+<section>
+   <img class="slides" src="color/startimage.png" style="width:100vh">
+   <img class="slides" src="color/image1.jpg" style="width:100vh">
+   <img class="slides" src="color/image2.jpg" style="width:100vh">
+   <img class="slides" src="color/image3.jpg" style="width:100vh">
+   <img class="slides" src="color/image4.jpg" style="width:100vh">
+   <img class="slides" src="color/image5.jpeg" style="width:100vh">
+   <img class="slides" src="color/image6.jpeg" style="width:100vh">
+   <img class="slides" src="color/image7.jpeg" style="width:100vh">
+</section>
+<img src="frame3-new.png">
+   </head>
+<body>
+<body style="background-color:black;">
+</body>
+</html>
