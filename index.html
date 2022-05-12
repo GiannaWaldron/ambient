@@ -4,17 +4,29 @@
       <title>ambient</title>
       <link rel="stylesheet" href="style.css">
    <script type="text/javascript">
+      window.onload=function(){
+         change()
+      }
          var index = 0;
+         var imagenumber= 0
          function change() {
              var x = document.getElementsByClassName('slides');
              for(var i = 0; i < x.length; i++) { 
                  x[i].style.display = "none"; 
+                 console.log("test")
              }
-             index++;
+             console.log(imagenumber)
+             
+             x[imagenumber].style.display="block"
+             imagenumber= imagenumber +1
+             if(imagenumber > 3){
+                imagenumber=0
+             }
+             /*index++;
              if(index > x.length) { 
                  index = 5; 
              }
-             x[index - 5].style.display = "block";
+             x[index - 5].style.display = "block";*/
              setTimeout(change, 3000);
          }
    </script>
