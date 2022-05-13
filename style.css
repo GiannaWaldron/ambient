@@ -2,7 +2,7 @@ img{
     width: 100%;
     height: 100%;
     z-index: 2;
-    position: absolute;
+    position: fixed;
 }
 script{
     z-index: 1;
@@ -24,7 +24,6 @@ h1{
     margin-left: 750px;
     margin-top: 30px;
     padding: 0 20px;
-    position: absolute;
     font-size: 1.5rem;
     font-family: 'Inconsolata', monospace;
     text-align: center;
@@ -49,10 +48,9 @@ h1{
 .styled2 {
     border: 0;
     line-height: 2.5;
-    margin-left: 50vw;
+    margin-left: 750px;
     margin-top: 50px;
     padding: 0 20px;
-    position: absolute;
     font-size: 1.5rem;
     font-family: 'Inconsolata', monospace;
     text-align: center;
@@ -80,7 +78,6 @@ h1{
     margin-left: 755px;
     margin-top: 70px;
     padding: 0 20px;
-    position: absolute;
     font-size: 1.5rem;
     font-family: 'Inconsolata', monospace;
     text-align: center;
@@ -109,7 +106,6 @@ h1{
     margin-top: 70px;
     padding: 0 20px;
     font-size: 1.5rem;
-    position: absolute;
     font-family: 'Inconsolata', monospace;
     text-align: center;
     color: black;
@@ -137,7 +133,6 @@ h1{
     margin-top: 70px;
     padding: 0 20px;
     font-size: 1.5rem;
-    position: absolute;
     font-family: 'Inconsolata', monospace;
     text-align: center;
     color: black;
