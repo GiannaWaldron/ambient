@@ -8,13 +8,148 @@ script{
     z-index: 1;
     display: flex;
 }
-.slides { width: 100%; 
+.slides { 
         margin-left: 350px;
+        align-content: center;
 }
 h1{
     font-family: 'Inconsolata', monospace;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
- 
+.styled {
+    border: 0;
+    line-height: 2.5;
+    margin-left: 750px;
+    margin-top: 30px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to top,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 10%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+    background-color: black;
+    color: #fff;
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.styled2 {
+    border: 0;
+    line-height: 2.5;
+    margin-left: 750px;
+    margin-top: 50px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to top,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 10%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled2:hover {
+    background-color: black;
+    color: #fff;
+}
+.styled2:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.styled3 {
+    border: 0;
+    line-height: 2.5;
+    margin-left: 755px;
+    margin-top: 70px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to top,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 10%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled3:hover {
+    background-color: black;
+    color: #fff;
+}
+.styled3:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.styled4 {
+    border: 0;
+    line-height: 2.5;
+    margin-left: 770px;
+    margin-top: 70px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to top,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 10%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled4:hover {
+    background-color: black;
+    color: #fff;
+}
+.styled4:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.styled5 {
+    border: 0;
+    line-height: 2.5;
+    margin-left: 780px;
+    margin-top: 70px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to top,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 10%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled5:hover {
+    background-color: black;
+    color: #fff;
+}
+.styled5:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
